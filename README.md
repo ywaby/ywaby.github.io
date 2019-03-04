@@ -1,4 +1,6 @@
 # ywaby_webpage
+todo
+usage cdn
 
 ## Project setup
 ```
