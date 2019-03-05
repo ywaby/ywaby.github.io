@@ -12,8 +12,8 @@ module.exports = {
     // webpack配置
     chainWebpack: config => {
         config.externals({
-          'vue': 'vue',
-          'museui': 'muse-ui'
+          'vue': 'Vue',
+          'muse-ui': 'MuseUI'
         })
       },
     configureWebpack:() =>  {
