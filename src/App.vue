@@ -1,95 +1,104 @@
 
 <template>
-  <div id="app">
-    <mu-flex>
-      <mu-flex align-items="center" justify-content="right">
-        <mu-flex>
-          <mu-avatar size="128">
-            <img src="./assets/avatar.jpg">
-          </mu-avatar>
-        </mu-flex>
-        <mu-flex fill>
-          <p>{{headline}}</p>
-        </mu-flex>
+  <div id="app" style>
+    <mu-flex
+      class="section"
+      wrap="wrap"
+      justify-content="left"
+      style="background-color:#eeeeee;color:black;"
+    >
+      <mu-avatar size="128">
+        <img src="./assets/images/avatar.svg">
+      </mu-avatar>
+      <mu-flex align-self="center">
+        <p style="font-size:1.5em; margin: 28px 28px">{{headline}}</p>
       </mu-flex>
     </mu-flex>
-    <section style="background-color:#9e9e9e">
-      <h2>perfer tools</h2>
-      <mu-icon
-        size="88"
-        color="lightBlue800"
-        v-for="(item,idx) in perfer_tools"
-        :key="idx"
-        :value="item.icon"
-      ></mu-icon>
-    </section>
+
     <mu-flex
-      class="perfer-langs"
-      style="background-color:white;
-      padding: 10px 0;
-      text-align: left;"
-    >
-      <h2>perfer langs</h2>
-      <mu-icon
-        size="88"
-        color="lightBlue800"
-        v-for="(item,idx) in perfer_langs"
-        :key="idx"
-        :value="item.icon"
-      ></mu-icon>
-    </mu-flex>
-    <mu-flex
-      class="footer"
-      style="background-color:DarkSlateGray;
-      color:white;
-      padding: 10px 0;"
+      direction="column"
+      class="prefer section"
       justify-content="center"
+      align-items="left"
+      style="background-color:#fafafa ;color:black;"
     >
-      <mu-flex fill justify-content="start" align-items="start">
-        <h2>contract me</h2>
-      </mu-flex>
-      <mu-flex justify-content="end" align-self="center">
-        <mu-button
-          color="blueGrey50"
-          large
-          flat
-          target="_blank"
-          v-for="item in social_btns"
-          :key="item.href"
-          :href="item.href"
-          style="vertical-align:middle"
+      <h2>prefer tools</h2>
+
+      <mu-flex wrap="wrap" justify-content="center" align-items="center">
+        <img
+          v-for="(item,idx) in perfer_tools"
+          :key="idx"
+          height="66"
+          :src="item.src"
+          :alt="item.alt"
         >
-          <mu-icon :value="item.icon"></mu-icon>
-        </mu-button>
-        <mu-button flat large color="blueGrey50" target="_blank" href="@ywaby:matrix.org">itch.io</mu-button>
-        <mu-button flat large color="blueGrey50" target="_blank" href="https://ywaby.itch.io">matrix</mu-button>
       </mu-flex>
+    </mu-flex>
+
+    <mu-flex
+      class="prefer section"
+      direction="column"
+      justify-content="center"
+      align-items="left"
+      style="background-color:#f5f5f5;color:black;"
+    >
+      <h2>prefer langs</h2>
+      <mu-flex wrap="wrap" justify-content="center" align-items="center">
+        <img
+          v-for="(item,idx) in perfer_langs"
+          :key="idx"
+          height="66"
+          :src="item.src"
+          :alt="item.alt"
+        >
+      </mu-flex>
+    </mu-flex>
+    <mu-flex fill></mu-flex>
+
+    <mu-flex class="footer section" justify-content="center" wrap="wrap" align-items="center">
+      <h2>contract me</h2>
+      <mu-flex fill></mu-flex>
+      <mu-button
+        color="blueGrey50"
+        large
+        flat
+        target="_blank"
+        v-for="item in social_btns"
+        :key="item.href"
+        :href="item.href"
+        style="vertical-align:middle"
+      >
+        <mu-icon :value="item.icon"></mu-icon>
+      </mu-button>
+      <mu-button flat large color="blueGrey50" target="_blank" href="@ywaby:matrix.org">itch.io</mu-button>
+      <mu-button flat large color="blueGrey50" target="_blank" href="https://ywaby.itch.io">matrix</mu-button>
     </mu-flex>
   </div>
 </template>
+
 <script>
 export default {
   name: "App",
   data: () => ({
     headline: "I'm a freelancer and a indie game developer,i like foss.",
     perfer_tools: [
-      { icon: ":mdi mdi-debian" },
-      { icon: ":mdi mdi-blender-software" },
-      { icon: ":mdi mdi-visual-studio-code" },
-      { icon: ":mdi mdi-firefox" },
-      { icon: ":mdi mdi-reaper" },
-      { icon: ":mdi mdi-godot" },
-      { icon: ":mdi mdi-inkscape" },
-      { icon: ":mdi mdi-krita" },
-      { icon: ":mdi mdi-libreoffice" },
-      { icon: ":mdi mdi-kicad" },
-      { icon: ":mdi mdi-freecad" }
+      { alt: "debian", src: require("./assets/images/debian.svg") },
+      { alt: "blender", src: require("./assets/images/blender.svg") },
+      { alt: "vscode", src: require("./assets/images/vscode.svg") },
+      { alt: "firefox", src: require("./assets/images/firefox.svg") },
+      { alt: "reaper", src: require("./assets/images/reaper.svg") },
+      { alt: "godot", src: require("./assets/images/godot.svg") },
+      { alt: "inkscape", src: require("./assets/images/inkscape.svg") },
+      { alt: "krita", src: require("./assets/images/krita.svg") },
+      { alt: "libreoffice", src: require("./assets/images/libreoffice.svg") },
+      { alt: "kicad", src: require("./assets/images/kicad.svg") },
+      { alt: "freecad", src: require("./assets/images/freecad.svg") }
     ],
     perfer_langs: [
-      { icon: ":mdi mdi-language-c" },
-      { icon: ":mdi mdi-language-cpp" },
-      { icon: ":mdi mdi-language-csharp" },
-      { icon: ":mdi mdi-language-python" }
+      { alt: "c", src: require("./assets/images/lang-c.svg") },
+      { alt: "cpp", src: require("./assets/images/lang-cpp.svg") },
+      { alt: "csharp", src: require("./assets/images/lang-csharp.svg") },
+      { alt: "python", src: require("./assets/images/lang-python.svg") }
     ],
     social_btns: [
       {
@@ -118,12 +127,21 @@ export default {
 </script>
 
 <style lang="less">
-.mu-button {
-  margin: 8px;
+.section {
+  margin: 0px;
+  padding: 10px 10px;
 }
-.perfer-langs {
-  .mu-icon {
-    margin: 18px;
-  }
+.mu-button {
+  margin: 0px;
+}
+.prefer .mu-icon {
+  margin: 10px 10px;
+}
+.prefer img {
+  margin: 10px 10px;
+}
+.footer {
+  background-color: #263238;
+  color: white;
 }
 </style>
