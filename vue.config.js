@@ -10,9 +10,15 @@ module.exports = {
     lintOnSave: true,
     // use the full build with in-browser compiler?
     // webpack配置
-    chainWebpack: () => {},
-    configureWebpack: () => {},
-
+    chainWebpack: config => {
+        config.externals({
+          'vue': 'vue',
+          'museui': 'muse-ui'
+        })
+      },
+    configureWebpack:() =>  {
+  
+      },
     // 生产环境是否生成 sourceMap 文件
     productionSourceMap: true,
     // css相关配置
