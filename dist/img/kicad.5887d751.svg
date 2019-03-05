@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   id="svg1486"
+   version="1.1"
+   viewBox="0 0 32.053544 21.65116"
+   height="21.651159mm"
+   width="32.053543mm">
+  <defs
+     id="defs1480" />
+  <metadata
+     id="metadata1483">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     transform="translate(-91.220181,-140.80097)"
+     id="layer1">
+    <g
+       transform="translate(75.929496,-211.50788)"
+       id="g2217"
+       style="enable-background:new">
+      <path
+         style="fill:#01579b;fill-opacity:1;stroke-width:0.37839937"
+         d="m 16.33379,352.30885 c -0.57769,0 -1.043104,0.4803 -1.043104,1.07671 v 2.17694 h 2.105699 v 16.24609 h -2.105699 v 0.95506 c 0,0.5964 0.465414,1.07671 1.043104,1.07671 h 18.769158 c 0.577662,0 1.04243,-0.48031 1.042433,-1.07671 v -15.07192 a 5.2136904,5.3828425 0 0 0 -5.213509,-5.38288 z"
+         id="path2863" />
+      <circle
+         id="circle2865"
+         r="2.3162735"
+         cy="356.5752"
+         cx="31.896801"
+         style="fill:#f2f2f2;fill-opacity:1;stroke:#002746;stroke-width:1.03235066;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+      <path
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.79806519px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#01579b;fill-opacity:1;stroke:#ffffff;stroke-width:1.03235066;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke markers fill"
+         d="m 17.868875,361.69007 v 3.6381 l 5.297518,5.94206 h 4.298099 l -7.071871,-7.94291 6.411865,-7.14514 h -3.986243 z"
+         id="path2208" />
+      <path
+         id="path2869"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:22.79806519px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#01579b;fill-opacity:1;stroke:#ffffff;stroke-width:1.03235066;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+         d="m 30.214987,361.30157 h 3.651173 v 9.8532 h -3.651173 z" />
+      <text
+         xml:space="preserve"
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.39555168px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#01579b;fill-opacity:1;stroke:#000000;stroke-width:1.06834221;stroke-opacity:0"
+         x="363.27322"
+         y="-36.751904"
+         id="text2879"
+         transform="matrix(0,0.97008754,-1.0308348,0,0,0)"><tspan
+           id="tspan2877"
+           x="363.27322"
+           y="-36.751904"
+           style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:11.39555168px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-feature-settings:normal;text-align:start;writing-mode:lr-tb;text-anchor:start;fill:#01579b;fill-opacity:1;stroke:#000000;stroke-width:1.06834221;stroke-opacity:0">cad</tspan></text>
+      <path
+         style="opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#002746;stroke-width:1.03235066;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1"
+         d="m 15.290685,355.56251 h 2.105701 l 1e-6,16.24607 h -2.105702"
+         id="path2194" />
+    </g>
+  </g>
+</svg>
