@@ -80,7 +80,7 @@
 export default {
   name: "App",
   data: () => ({
-    headline: "I'm a freelancer and a indie game developer,i like foss.",
+    headline: "I'm a freelancer and a indie game developer,I like open source.",
     perfer_tools: [
       { alt: "debian", src: require("./assets/images/debian.svg") },
       { alt: "blender", src: require("./assets/images/blender.svg") },
